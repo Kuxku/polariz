@@ -60,7 +60,7 @@ export const ProductDetail = () => {
             <p className="text-xl font-light text-white/70 mb-12 leading-relaxed">
               {product.description}
             </p>
-            <div className="text-2xl font-light tracking-wide text-brand-yellow mb-12 border-b border-white/10 pb-12">
+            <div className="text-3xl font-bold tracking-wide text-brand-orange mb-12 border-b border-white/10 pb-12">
               ${product.price}
             </div>
 

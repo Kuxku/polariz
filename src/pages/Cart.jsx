@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CartContext } from '../context/CartContext';
 import { CartItem } from '../components/CartItem';
-import { ShoppingBag, ArrowRight } from 'lucide-react';
+import { ShoppingCart, ArrowRight } from 'lucide-react';
 
 export const Cart = () => {
   const { cart, total, itemCount } = useContext(CartContext);
@@ -16,7 +16,7 @@ export const Cart = () => {
            animate={{ opacity: 1, y: 0 }}
            className="text-center max-w-lg w-full"
         >
-          <ShoppingBag className="w-12 h-12 text-white/40 mx-auto mb-8" strokeWidth={1} />
+          <ShoppingCart className="w-12 h-12 text-white/40 mx-auto mb-8" strokeWidth={1} />
           <h2 className="text-4xl font-serif text-white mb-6 tracking-tight">Tu bolsa está vacía</h2>
           <p className="text-white/60 mb-12 text-lg font-light">
             Explora nuestra colección y descubre nuevas formas de bienestar íntimo.
@@ -78,7 +78,7 @@ export const Cart = () => {
               
               <div className="border-t border-white/20 pt-8 mb-12 flex justify-between items-end">
                 <span className="text-sm uppercase tracking-widest text-white/80">Total</span>
-                <span className="text-4xl font-serif text-brand-yellow">${total.toFixed(2)}</span>
+                <span className="text-4xl font-serif text-brand-orange">${total.toFixed(2)}</span>
               </div>
               
               <button className="btn-primary w-full tracking-[0.3em] rounded-full py-4">

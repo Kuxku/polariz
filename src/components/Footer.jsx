@@ -9,7 +9,7 @@ export const Footer = () => {
         {/* Brand Column */}
         <div className="lg:col-span-5 space-y-8">
           <Link to="/" className="inline-block">
-            <span className="font-serif text-5xl tracking-widest text-brand-base uppercase">POLARIZ</span>
+            <span className="font-serif text-5xl tracking-widest text-brand-orange uppercase">POLARIZ</span>
           </Link>
           <p className="text-brand-accent/80 max-w-sm text-sm leading-loose font-light">
             Descubre nuestra línea exclusiva de bienestar íntimo diseñada para potenciar tu seguridad, elevar el confort y celebrar cada experiencia de forma equilibrada.
@@ -29,7 +29,7 @@ export const Footer = () => {
 
         {/* Links Column 1 */}
         <div className="lg:col-span-3 space-y-6">
-          <h4 className="font-serif italic text-2xl text-white mb-8">Navegación</h4>
+          <h4 className="font-serif text-2xl text-brand-orange mb-8">Navegación</h4>
           <ul className="space-y-4">
             <li><Link to="/catalog" className="text-brand-accent/80 hover:text-white text-sm tracking-wider uppercase transition-colors">Catálogo Completo</Link></li>
             <li><Link to="/about" className="text-brand-accent/80 hover:text-white text-sm tracking-wider uppercase transition-colors">La Marca</Link></li>
@@ -40,7 +40,7 @@ export const Footer = () => {
         
         {/* Links Column 2 */}
         <div className="lg:col-span-3 space-y-6">
-          <h4 className="font-serif italic text-2xl text-white mb-8">Soporte</h4>
+          <h4 className="font-serif text-2xl text-brand-orange mb-8">Soporte</h4>
           <ul className="space-y-4">
             <li><a href="#" className="text-brand-accent/80 hover:text-white text-sm tracking-wider transition-colors">Preguntas Frecuentes</a></li>
             <li><a href="#" className="text-brand-accent/80 hover:text-white text-sm tracking-wider transition-colors">Envíos Discretos</a></li>

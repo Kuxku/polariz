@@ -50,7 +50,7 @@ export const ProductCard = ({ product }) => {
           </h3>
         </Link>
         <div className="mt-auto flex justify-between items-center w-full">
-           <span className="text-sm tracking-wider text-white/80">
+           <span className="text-sm tracking-wider text-brand-orange font-bold">
             ${product.price}
           </span>
            <button

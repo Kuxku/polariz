@@ -108,7 +108,7 @@ export const About = () => {
                 <span className="text-xs tracking-[0.2em] font-sans text-brand-orange mb-8 block">
                   {valor.id} //
                 </span>
-                <h3 className="text-2xl font-serif text-white mb-6">{valor.title}</h3>
+                <h3 className="text-2xl font-serif text-brand-orange mb-6">{valor.title}</h3>
                 <p className="text-white/60 font-light leading-relaxed">
                   {valor.desc}
                 </p>

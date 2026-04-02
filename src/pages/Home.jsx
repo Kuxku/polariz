@@ -12,8 +12,9 @@ export const Home = () => {
       {/* Hero Section */}
       <section className="relative h-[90vh] overflow-hidden flex items-center justify-center">
         {/* Geometric glows that blend with purple bg */}
-        <div className="absolute top-[-10%] right-[-5%] w-[40vw] h-[40vw] rounded-full bg-brand-yellow opacity-20 blur-3xl"></div>
+        <div className="absolute top-[-10%] right-[-5%] w-[40vw] h-[40vw] rounded-full bg-brand-orange opacity-15 blur-3xl"></div>
         <div className="absolute bottom-[-10%] left-[-5%] w-[30vw] h-[30vw] rounded-full bg-brand-pink opacity-25 blur-3xl"></div>
+        <div className="absolute top-[40%] left-[20%] w-[20vw] h-[20vw] rounded-full bg-brand-orange opacity-10 blur-3xl"></div>
 
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-8 text-center flex flex-col items-center justify-center h-full">
           <motion.div
@@ -27,8 +28,8 @@ export const Home = () => {
             </span>
             <h1 className="text-5xl sm:text-7xl lg:text-8xl font-serif text-white leading-[1.1] mb-8 font-black tracking-tight">
               Aprende, <br className="sm:hidden" />
-              <span className="text-brand-yellow">Juega</span> y <br className="hidden sm:block" />
-              <span className="text-brand-pink">Conecta.</span>
+              <span className="text-brand-orange">Juega</span> y <br className="hidden sm:block" />
+              <span className="text-brand-yellow">Conecta.</span>
             </h1>
             <p className="text-xl sm:text-2xl font-sans text-white/70 mb-12 max-w-2xl leading-relaxed">
               Descubre nuestra colección curada de juguetes. Tecnología segura, diseño moderno y mucha diversión para elevar tu placer.

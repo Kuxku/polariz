@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { Menu, X, ShoppingBag } from 'lucide-react';
+import { Menu, X, ShoppingCart } from 'lucide-react';
 import { CartContext } from '../context/CartContext';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -21,7 +21,7 @@ export const Navbar = () => {
 
           {/* Logo */}
           <div className="flex-1 flex justify-start">
-            <Link to="/" className="text-3xl font-serif tracking-widest text-white uppercase">
+            <Link to="/" className="text-3xl font-serif tracking-widest text-brand-orange uppercase">
               POLARIZ
             </Link>
           </div>
@@ -47,7 +47,7 @@ export const Navbar = () => {
             <Link to="/cart" className="relative text-white hover:text-white/70 transition-colors flex items-center gap-2 group">
               <span className="text-xs uppercase tracking-widest hidden md:inline group-hover:underline underline-offset-4">Cart</span>
               <div className="relative">
-                <ShoppingBag className="h-5 w-5" strokeWidth={1.5} />
+                <ShoppingCart className="h-5 w-5" strokeWidth={1.5} />
                 <AnimatePresence>
                   {itemCount > 0 && (
                     <motion.span

@@ -57,7 +57,7 @@ export const CartItem = ({ item }) => {
             </button>
           </div>
 
-          <div className="text-lg tracking-wider text-right hidden sm:block w-20 text-brand-yellow">
+          <div className="text-lg tracking-wider text-right hidden sm:block w-20 text-brand-orange font-bold">
             ${(item.price * item.quantity).toFixed(2)}
           </div>
         </div>
