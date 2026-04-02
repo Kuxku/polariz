@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Estimulador de Conejo 'Playful Bunny'",
+    "description": "El clásico favorito reinventado. Doble estimulación con un motor silencioso y diseño súper suave al tacto.",
+    "price": 120,
+    "image": "https://picsum.photos/id/106/400/400",
+    "category": "Juguetón"
+  },
+  {
+    "id": 2,
+    "name": "Vela de Masajes Relajante 'Zen'",
+    "description": "Su cera aromática se derrite en un aceite cálido ideal para empezar la noche con un masaje sensual y tranquilo.",
+    "price": 35,
+    "image": "https://picsum.photos/id/111/400/400",
+    "category": "Tranquilo"
+  },
+  {
+    "id": 3,
+    "name": "Bala Vibradora 'Secret'",
+    "description": "Pequeña, potente y ultra discreta. Llévala a donde quieras y disfruta de sus 10 patrones de vibración.",
+    "price": 45,
+    "image": "https://picsum.photos/id/112/400/400",
+    "category": "Atrevido"
+  },
+  {
+    "id": 4,
+    "name": "Libro: 'Anatomía del Placer'",
+    "description": "Conoce tu cuerpo de una forma didáctica y sin tabúes. Ilustrado y fácil de leer para explorar mejor.",
+    "price": 25,
+    "image": "https://picsum.photos/id/24/400/400",
+    "category": "Educativo"
+  },
+  {
+    "id": 5,
+    "name": "Kit para Parejas 'Midnight'",
+    "description": "Todo lo que necesitas para salir de la rutina: esposas suaves, venda para los ojos y un dado atrevido.",
+    "price": 85,
+    "image": "https://picsum.photos/id/22/400/400",
+    "category": "Atrevido"
+  },
+  {
+    "id": 6,
+    "name": "Lubricante Híbrido Premium",
+    "description": "Larga duración con textura natural. Seguro para juguetes, libre de parabenos y amigable con tu piel.",
+    "price": 30,
+    "image": "https://picsum.photos/id/200/400/400",
+    "category": "Educativo"
+  }
+]
